@@ -8,7 +8,7 @@ const App = () => {
       <PageHeader />
       <div className="grid grid-cols-[auto,1fr] flex-grow-1 overflow-auto">
         {/* <div>Sidebar</div> */}
-        <div className="gap-4 flex flex-wrap justify-center lg:justify-left p-4">
+        <div className="gap-4 flex flex-wrap justify-center lg:justify-normal p-4">
           {videos.map((video) => (
             <VideoGridItem key={video.id} {...video} />
           ))}
